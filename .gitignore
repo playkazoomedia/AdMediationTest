@@ -62,3 +62,12 @@ crashlytics-build.properties
 # related to Play Services Resolver
 /[Aa]ssets/PlayServicesResolver/Editor/Google*
 /[Aa]ssets/PlayServicesResolver/Editor/play-services-resolver*
+
+# related to Play Services Resolver on android
+/[Aa]ssets/Plugins/Android/androidx*
+/[Aa]ssets/Plugins/Android/com.google*
+/[Aa]ssets/Plugins/Android/com.squareup*
+/[Aa]ssets/Plugins/Android/com.unity3d*
+/[Aa]ssets/Plugins/Android/org.jetbrains*
+
+
