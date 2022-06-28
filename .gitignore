@@ -58,3 +58,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# related to Play Services Resolver
+/[Aa]ssets/PlayServicesResolver/Editor/Google*
+/[Aa]ssets/PlayServicesResolver/Editor/play-services-resolver*
