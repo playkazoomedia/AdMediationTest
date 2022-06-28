@@ -843,11 +843,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 435830f5-bcf0-473f-96c3-f2d139b5eec8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: pool2
+  organizationId: kazoo-media
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
