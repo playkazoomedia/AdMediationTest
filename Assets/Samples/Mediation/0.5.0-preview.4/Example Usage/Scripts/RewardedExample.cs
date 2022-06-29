@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 using Unity.Services.Core;
-using System.Threading.Tasks;
 
 namespace Unity.Services.Mediation.Samples
 {
@@ -40,6 +39,10 @@ namespace Unity.Services.Mediation.Samples
                 {
                     RewardedAdShowOptions showOptions = new RewardedAdShowOptions();
                     showOptions.AutoReload = true;
+                    S2SRedeemData s2SData;
+                    s2SData.UserId = "my cool user id";
+                    s2SData.CustomData = "{\"reward\":\"Gems\",\"amount\":20}";
+                    showOptions.S2SData = s2SData;
                     await m_RewardedAd.ShowAsync(showOptions);
                     Debug.Log("Rewarded Shown!");
                 }
